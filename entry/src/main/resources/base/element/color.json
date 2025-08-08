@@ -1,0 +1,32 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "app_background",
+      "value": "#FFBAE5E7"
+    },
+    {
+      "name": "card_background_color",
+      "value": "#FF75A2A7"
+    },
+    {
+      "name": "white",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "geyser",
+      "value": "#FFD4E4E5"
+    },
+    {
+      "name": "deep_teal",
+      "value": "#FF065356"
+    },
+    {
+      "name": "deep_aqua",
+      "value": "#FF00787C"
+    }
+  ]
+}
