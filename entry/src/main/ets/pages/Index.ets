@@ -10,12 +10,11 @@ let viewModel: WearableViewModel = new WearableViewModel();
 @Entry
 @Component
 struct Index {
-  @State songs: SongData[] = [];
   private controller: SwiperController = new SwiperController()
 
   aboutToAppear(): void {
-    this.songs = viewModel.getSongList();
-    AppStorage.setOrCreate('songList', this.songs);
+    const songs: SongData[] = viewModel.getSongList();
+    AppStorage.setOrCreate('songList', songs);
     MediaController.getInstance();
   }
 

@@ -1,6 +1,6 @@
 {
   "app": {
-    "bundleName": "com.hmosdemos.music_player_app",
+    "bundleName": "com.hmosdemos.wearable.music_player_app",
     "vendor": "hmosdemos",
     "versionCode": 1000000,
     "versionName": "1.0.0",

@@ -58,7 +58,7 @@ export struct PlaybackView {
         .padding({
           left: $r('app.float.margin_4'),
           right: $r('app.float.margin_4'),
-          bottom: $r('app.float.margin_8'),
+          bottom: $r('app.float.margin_8')
         })
         .width(SizeConstants.FULL_WIDTH_PERCENT)
         .justifyContent(FlexAlign.SpaceAround)

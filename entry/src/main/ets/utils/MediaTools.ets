@@ -34,7 +34,7 @@ export class MediaTools {
     const avFileDescriptor: media.AVFileDescriptor = {
       fd: resourceFd.fd,
       offset: resourceFd.offset,
-      length: resourceFd.length,
+      length: resourceFd.length
     };
     return avFileDescriptor;
   }
